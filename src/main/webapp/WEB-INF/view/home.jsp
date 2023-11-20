@@ -342,7 +342,8 @@
                                    <div class="job-post-item-header align-items-center">
                                        <span class="subadge">${recruitment.type}</span>
                                        <h2 class="mr-3 text-black">
-                                           <a href="/recruitment/detail/${recruitment.id}">${recruitment.title}</a>
+                                        <!--   <a href="/recruitment/detail/${recruitment.id}">${recruitment.title}</a> -->
+                                           <a href="#">${recruitment.title}</a>
                                        </h2>
                                    </div>
                                    <div class="job-post-item-body d-block d-md-flex">
