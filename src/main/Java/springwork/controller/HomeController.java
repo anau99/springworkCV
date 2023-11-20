@@ -32,6 +32,7 @@ public class HomeController {
     *
      */
     @GetMapping("/intro")
+
     public String showHome(Model theModel, HttpSession httpSession){
         //Storing the number of candidates, companies, addresses
         //Top 5 recruitment
